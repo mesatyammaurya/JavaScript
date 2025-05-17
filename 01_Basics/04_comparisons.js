@@ -15,7 +15,7 @@ console.log(undefined >=0);
 // this always gives false
 // avoid all these conversion 
 
-// # Strict Check - (===)
+// # Strict Check - (===), it also checks data types.
 console.log("2"===2); // false
 
 
