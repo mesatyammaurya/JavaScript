@@ -25,6 +25,32 @@ const myFunction = function(){
 }
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+// scope of var is global even if it is defined inside a block but it does not happen in case of let and const
+// const and let have block level scope
+
 
 // is js staticalyy typed or dynamically typed? Dynamically typed.
 
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//Stack Vs Heap
+// Stack (Primitive) => Here we get a copy og value, Heap (Non-Primitive) => Here we get a refrence of the original value.
+
+let myName = 'Satyam Maurya'
+let anotherName = myName
+anotherName = "Hello Bande"
+
+console.log(myName)
+console.log(anotherName)
+
+let user1 = {
+    name: "Satyam",
+    age: 21
+}
+
+let user2 = user1
+user2.age = 23
+
+console.log(user1.age)
+console.log(user2.age)

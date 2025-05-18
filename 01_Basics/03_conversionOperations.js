@@ -44,6 +44,7 @@ console.log(1 + "2");
 // both gives 12
 console.log("1"+2+3); //123  string first then every argument will be treated as string 
 console.log(1+2+"3"); //33
+console.log('3' * '4') // gives 12 since * does not have any meaning in strings
 // Never write this type of code 
 
 console.log(+true); //1

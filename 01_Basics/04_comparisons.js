@@ -2,6 +2,7 @@
 
 // console.log("2">1);
 // console.log("02" >1);
+
 // always use same data types
 
 console.log(null>0); //false
@@ -17,5 +18,6 @@ console.log(undefined >=0);
 
 // # Strict Check - (===), it also checks data types.
 console.log("2"===2); // false
+//always strict check unless you can't
 
 
